@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "gotham";
+    src: url("/Users/moscoco/Library/Fonts/Gotham-Book.otf") format("truetype");
+}
+
+#Logo 
+{ 
+    width: 60px;
+    position: relative;
+    top:55px;
+    left: 80px;
+    
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+#menu_works {
+    position: absolute;
+    top:80px;
+    right: 320px;
+    font-family: gotham;
+    font-size: 12pt;
+    letter-spacing: 4px;
+}
+
+#menu_about {
+    position: absolute;
+    top:80px;
+    right: 200px;
+    font-family: gotham;
+    font-size: 12pt;
+    letter-spacing: 4px;
+}
+
+#Mail {
+    position: absolute;
+    top:80px;
+    right: 80px;
+    width: 25px;
+}
