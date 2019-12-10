@@ -1,6 +1,27 @@
 @font-face {
     font-family: "gotham";
-    src: url("/Users/moscoco/Library/Fonts/Gotham-Book.otf") format("truetype");
+    src: url("/Users/moscoco/Library/Fonts/Gotham-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"acumin-pro-extra-condensed";
+    src:url("https://use.typekit.net/af/c4767b/00000000000000003b9acb20/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c4767b/00000000000000003b9acb20/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c4767b/00000000000000003b9acb20/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:normal;
+    }
+
+
+@font-face {
+    font-family: "sofia";
+    src: url("/Users/moscoco/Library/Fonts/sofiapro-light.otf") format("opentype");
+}
+
+@font-face {font-family: "GothamHTF-Book";
+    src: url("http://db.onlinewebfonts.com/t/1af7207b68ef04bc4e453e0aa814e986.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/1af7207b68ef04bc4e453e0aa814e986.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/1af7207b68ef04bc4e453e0aa814e986.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/1af7207b68ef04bc4e453e0aa814e986.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/1af7207b68ef04bc4e453e0aa814e986.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/1af7207b68ef04bc4e453e0aa814e986.svg#GothamHTF-Book") format("svg"); /* iOS 4.1- */
 }
 
 #Logo 
@@ -12,11 +33,17 @@
     
 }
 
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
 }
 
+.container {
+    padding: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
 
 #menu_works {
     position: absolute;
@@ -25,6 +52,7 @@
     font-family: gotham;
     font-size: 12pt;
     letter-spacing: 4px;
+    
 }
 
 #menu_about {
@@ -41,4 +69,113 @@
     top:80px;
     right: 80px;
     width: 25px;
+}
+
+/* NAVBAR */
+
+.navbar
+{
+    margin-top: 50px;
+}
+
+.navbar-brand
+{
+    top:70px;
+}
+
+.nav-link-left {
+    /* liens de la navbar */
+    color: rgb(0, 0, 0) !important;
+    font-family: GothamHTF-Book;
+    font-size: 12pt;
+    letter-spacing: 4px;
+}
+
+#Cercle {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    background: #fed5fe;
+}
+
+.Texte1
+{
+  font-size: 100pt;
+  font-family: acumin-pro-extra-condensed;
+  color: rgb(0, 0, 0);
+  font-weight:bold;  
+  text-align:left;
+  display:block;
+  letter-spacing: 2px;
+}
+
+.Texte2
+{
+  font-size: 14pt;
+  font-family: GothamHTF-Book;
+  color: rgb(0, 0, 0);
+  font-weight:normal;  
+  text-align:left;
+  display:block;
+  letter-spacing: 4px;
+  padding: 0 !important;
+}
+
+#ArtDirector
+{
+    margin-left:261px;
+    margin-top: -50px;
+}
+
+#NinaMosconi
+{
+    margin-left:275px;
+    margin-top:160px;
+}
+
+.img-responsive
+{
+    max-width: 100%;
+    height: auto;
+    display: block;   
+}
+
+.centre 
+{
+    margin: 0 auto;
+}
+
+#Vacation
+{
+    height: 461px;
+    width: 307px;
+    position: relative;
+    float: left;
+}
+
+.accueil
+{
+    margin-top: 100px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+#ConcheDivine
+{
+    height: 853px;
+    width: 673px;
+    position: relative;
+    float: left;
+}
+
+#ConcheTel
+{
+    height: 555px;
+    width: 484px;
+    position: relative;
+    float: left;
 }
